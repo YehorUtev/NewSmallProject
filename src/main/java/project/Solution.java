@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class Solution {
+    //program is making list of integers and displays error while entering another type of data
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         List<Integer> integerList = new ArrayList<Integer>();
